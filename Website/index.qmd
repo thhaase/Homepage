@@ -1,6 +1,18 @@
 ---
-title: "Website"
----
+title: "Thomas Haase" 
+image: media/jupiter.jpg 
+toc: false 
+about: 
+  template: trestles 
+  image-shape: round
+  image-width: 20em
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/SamanthaCsik
+    - icon: github
+      text: GitHub
+      href: https://github.com/samanthacsik
 
 This is a Quarto website.
 
