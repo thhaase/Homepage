@@ -4,5 +4,17 @@
     "items": [
       "/blog/2023-10-31-short-post-description/index.html"
     ]
+  },
+  {
+    "listing": "/astro.html",
+    "items": [
+      "/photography/astro/index.html"
+    ]
+  },
+  {
+    "listing": "/street.html",
+    "items": [
+      "/photography/street/index.html"
+    ]
   }
 ]

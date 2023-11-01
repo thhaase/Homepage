@@ -2,14 +2,14 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Website",
+    "title": "Thomas Haase",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Heading\nHier steht mein Text"
   },
   {
     "objectID": "blog.html",
     "href": "blog.html",
-    "title": "My Blog",
+    "title": "Blog",
     "section": "",
     "text": "blog post title\n\n\n\nQuarto\n\n\nR\n\n\nMEDS\n\n\n\nblog post description (appears underneath the title in smaller text) which is included on the listing page\n\n\n\nSamantha Csik\n\n\nOct 24, 2022\n\n\n\n\n\n\n\n\nNo matching items"
   },
@@ -26,5 +26,33 @@
     "title": "blog post title",
     "section": "",
     "text": "CitationBibTeX citation:@online{csik2022,\n  author = {Csik, Samantha},\n  title = {Blog Post Title},\n  date = {2022-10-24},\n  url = {https://samanthacsik.github.io/posts/2022-10-24-my-blog-post/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nCsik, Samantha. 2022. “Blog Post Title.” October 24, 2022.\nhttps://samanthacsik.github.io/posts/2022-10-24-my-blog-post/."
+  },
+  {
+    "objectID": "astro.html",
+    "href": "astro.html",
+    "title": "astro",
+    "section": "",
+    "text": "Astrophotography\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "photography/astro/index.html",
+    "href": "photography/astro/index.html",
+    "title": "Astrophotography",
+    "section": "",
+    "text": "Astrophotography\nHere are my Photos:"
+  },
+  {
+    "objectID": "street.html",
+    "href": "street.html",
+    "title": "street",
+    "section": "",
+    "text": "Streetphotography\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "photography/street/index.html",
+    "href": "photography/street/index.html",
+    "title": "Streetphotography",
+    "section": "",
+    "text": "Streetphotography\nHere are my Street-Photos"
   }
 ]

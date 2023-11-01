@@ -1,20 +1,54 @@
 project:
   type: website
   output-dir: docs
+
+  
 website:
-  title: "Website"
+  favicon: media/beamer.png
+  title: ""
   navbar:
+    pinned: true
+    logo: media/beamer.png
     left:
       - href: index.qmd
         text: Home
+      - blog.qmd
+      - text: "Photography"
+        menu: 
+        - astro.qmd
+        - street.qmd
       - about.qmd
-      - blog.qmd 
+    right:
+      - icon: mastodon
+        href: social.tchncs.de/@thhaase
+      - icon: twitter
+        href: x.com/thhaase_
+      - icon: github
+        href: github.com/thhaase
+      - icon: spotify
+        href: https://open.spotify.com/user/kvqz88xd4goy62kojjy507veu?si=KR6CHMmaTPmgJR3d1UdKHA
+      - icon: envelope
+        href: "mailto:thhaase.soz@gmail.com"
+
+
+  page-footer:
+    background: dark # or dark
+    left:
+      - "©  2023 Thomas Haase"
+    right: 
+      - text: "made with {{< fa heart >}} and quarto"
+        href: https://quarto.org/
+
+  search: false
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      - cosmo
+      - styles.scss
+    mainfont: Lato
     css: styles.css
     toc: true
 
-editor: visual
+editor: source
 

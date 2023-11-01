@@ -1,0 +1,98 @@
+/*-- scss:defaults --*/
+
+//Import Fonts
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Urbanist:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+$font-family-serif: "Inria", serif; 
+$font-family-sans-serif: "Urbanist", sans-serif;
+$font-family-monospace: "Source Code Pro", monospace;
+
+
+$my-font-size: 25px;
+$my-width: 500px;
+
+// Colors
+//$color1: #0d0e08;
+//$color2: #0d0e08;
+$color1: #222222;
+$color2: #303030;
+$color3: #ffffff;
+$color4: #f7d737;
+$color5: #e1643c;
+$color6: #e1643c;
+$color7: #f7d737;
+// #6504e3
+// Base document colors
+$navbar-bg: $color2; // navbar
+$navbar-fg: $color4; // navbar foreground elements
+$navbar-hl: $color5; // highlight color when hovering over navbar links
+$body-bg: $color1; // page background 
+$body-color: $color3; // page text 
+$footer-bg: $color2; // footer 
+$link-color: $color4; // hyperlinks 
+
+// Inline code
+$code-bg: $color5; // inline code background color
+$code-color: $color7; // inline code text color
+
+// Code blocks
+$code-block-bg: $color2; // code block background color
+
+
+/*-- scss:rules --*/
+h1 {
+  letter-spacing: 1px;
+  color: $color7;
+}
+h2, h3, h4, h5, h6 {
+  letter-spacing: 0px;
+  color: $color4;
+}
+
+.title {
+  color: $color6;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.dropdown-menu.show {
+  background: $color1;
+}
+
+.dropdown-text {
+  color: $color4;
+}
+
+.bi-twitter-x {
+  background: $color4;
+}
+
+// -- Blog Grid Styling -- //
+.quarto-grid-item {
+  background: $color2;
+}
+
+.quarto-grid-item .listing-categories .listing-category {
+  color: $color5;
+  border-top-color: $color5;
+  border-bottom-color: $color5;
+  border-left-color: $color5;
+  border-right-color: $color5;
+}
+
+.listing-author {
+  color: $color5;
+}
+
+.listing-date {
+  color: $color5;
+}
+
+.category {
+  color: $color5;
+}
+
+.quarto-listing-category-title {
+  color: $color4;
+}

@@ -1,0 +1,7 @@
+---
+title: "astro"
+listing: 
+  contents: photography/astro 
+feed: 
+  title: thhaase-astrophotography
+---
