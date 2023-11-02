@@ -17,7 +17,9 @@ website:
         menu: 
         - astro.qmd
         - street.qmd
-      - about.qmd
+      - href: about.qmd
+        text: About
+        
     right:
       - icon: mastodon
         href: social.tchncs.de/@thhaase

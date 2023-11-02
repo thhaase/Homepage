@@ -16,9 +16,9 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Thomas Haase\nIch studiere aktuell BA Sozialwissenschaften an der Justus-Liebig-Universität Gießen mit viel Leidenschaft. Neben meinem Studium lerne ich privat"
   },
   {
     "objectID": "blog/2023-10-31-short-post-description/index.html",
@@ -54,5 +54,19 @@
     "title": "Streetphotography",
     "section": "",
     "text": "Streetphotography\nHere are my Street-Photos"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "",
+    "section": "Education",
+    "text": "Education\nUniversity of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul MA B.A in Economics | Sept 2007 - June 2011"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "",
+    "section": "Experience",
+    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Sept 2012 - April 2018"
   }
 ]

@@ -1,12 +1,46 @@
 ---
-title: "Thomas Haase" 
-image: media/jupiter.jpg 
+title: "" 
+image: media/foto1.png
 toc: false 
 about: 
   template: trestles
   image-width: 20em
   links:
+    - icon: mastodon
+      text: Mastodon
+      href: social.tchncs.de/@thhaase
     - icon: github
-      text: GitHub
-      href: https://github.com/thhaase
+      text: Github
+      href: github.com/thhaase
+    - icon: envelope
+      text: E-Mail
+      href: "mailto:thhaase.soz@gmail.com"
+    - icon: twitter
+      text: Twitter/ X
+      href: x.com/thhaase_
+    - icon: spotify
+      text: Spotify
+      href: https://open.spotify.com/user/kvqz88xd4goy62kojjy507veu?si=KR6CHMmaTPmgJR3d1UdKHA
+
 ---
+
+<p class="orange-text" "h1">Thomas Haase</p>
+
+Ich studiere aktuell BA Sozialwissenschaften an der [Justus-Liebig-Universität Gießen](https://www.uni-giessen.de/de/fbz/fb03) mit viel Leidenschaft. Neben meinem Studium lerne ich privat 
+
+## Education
+
+University of California, San Diego | San Diego, CA
+PhD in Mathematics | Sept 2011 - June 2015
+
+Macalester College | St. Paul MA
+B.A in Economics | Sept 2007 - June 2011
+
+## Experience
+
+Wengo Analytics | Head Data Scientist | April 2018 - present
+
+GeoScynce | Chief Analyst | Sept 2012 - April 2018
+
+
+

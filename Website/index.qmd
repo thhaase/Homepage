@@ -1,14 +1,7 @@
 ---
 title: "Thomas Haase" 
-image: media/jupiter.jpg 
+image: media/foto1.png 
 toc: false 
-#about: 
-#  template: trestles
-#  image-width: 20em
-#  links:
-#    - icon: github
-#      text: GitHub
-#      href: https://github.com/thhaase
 ---
 
 # Heading
