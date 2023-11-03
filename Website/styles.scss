@@ -1,9 +1,10 @@
 /*-- scss:defaults --*/
 
 //Import Fonts
-@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Urbanist:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Nunito+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Urbanist:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 $font-family-serif: "Inria", serif; 
-$font-family-sans-serif: "Urbanist", sans-serif;
+//$font-family-sans-serif: "Urbanist", sans-serif;
+$font-family-sans-serif: "Nunito", sans-serif;
 $font-family-monospace: "Source Code Pro", monospace;
 
 
@@ -48,6 +49,29 @@ h2, h3, h4, h5, h6 {
   color: $color4;
 }
 
+.orange-h1 {
+  font-size: 2rem; 
+  letter-spacing: 1px;
+  color: $color6;
+  font-family: "Nunito Sans";
+  font-weight: 600 ;
+}
+
+.orange-h2 {
+  font-size: 1.5rem; 
+  line-height: 0.6;
+  letter-spacing: 0px;
+  color: $color6;
+  font-family: "Nunito Sans";
+  font-weight: 600 ;
+}
+
+.small-grey-text {
+  font-size: 13px; #
+  line-height: 0.1;
+  color: #BDBDBD;
+}
+
 .orange-text {
   color: $color6;
 }
@@ -71,6 +95,8 @@ h2, h3, h4, h5, h6 {
 .bi-twitter-x {
   background: $color4;
 }
+
+
 
 // -- Blog Grid Styling -- //
 .quarto-grid-item {

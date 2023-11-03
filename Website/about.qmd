@@ -2,6 +2,10 @@
 title: "" 
 image: media/foto1.png
 toc: false 
+format:
+  html: 
+    grid:
+      body-width: 950px
 about: 
   template: trestles
   image-width: 20em
@@ -24,23 +28,38 @@ about:
 
 ---
 
-<p class="orange-text" "h1">Thomas Haase</p>
+[Thomas Haase]{.orange-h1}
 
-Ich studiere aktuell BA Sozialwissenschaften an der [Justus-Liebig-Universität Gießen](https://www.uni-giessen.de/de/fbz/fb03) mit viel Leidenschaft. Neben meinem Studium lerne ich privat 
+I am a BA social science student at [Justus-Liebig-University Gießen](https://www.uni-giessen.de/de/fbz/fb03) and also serve as a tutor for empirical methods and statistics. 
 
-## Education
+[Experience]{.orange-h2}
 
-University of California, San Diego | San Diego, CA
-PhD in Mathematics | Sept 2011 - June 2015
+- Tutor: 
+    - Empirical methods & data collection procedures 
+    - Statistics
+- Student assistent for organizing a research and network conference with around 50 participants of the BMBF funding programm[International Humanities and Social Sciences](https://www.geistes-und-sozialwissenschaften-bmbf.de/en/International-Humanities-and-Social-Sciences-1696.html) 
+---
+- Workshop: Quantitative content analysis [8h] <br> [(Methodentage JLU 2023 - Dr. Marius Sältzer) ]{.small-grey-text}
+- Workshop: Intro to multilevel analysis [16h] <br> [(Methodentage JLU 2022 - Sandra Scheuring)   ]{.small-grey-text}
+- Workshop: Intro to SEM                 [16h] <br> [(Methodentage JLU 2022 - Dr. Henrik Andersen)]{.small-grey-text}
 
-Macalester College | St. Paul MA
-B.A in Economics | Sept 2007 - June 2011
+<p class="orange-h2">Education</p>
+|                   |                                                                                                |
+|------------------ |------------------------------------------------------------------------------------------------|
+| since 10/2021     | B.A. Sozialwissenschaften, Justus-Liebig-Universität, Gießen                                   |
+| 2020 - 2021       | Physik, Justus-Liebig-Universität, Gießen <br> [Nicht Abgeschlossen - anschließender Fachwechsel]{.small-grey-text} |
 
-## Experience
+[Interests]{.orange-h2}
 
-Wengo Analytics | Head Data Scientist | April 2018 - present
+| R | Statistics | Computational Sociology | General Sociological Theory |
 
-GeoScynce | Chief Analyst | Sept 2012 - April 2018
+<!--
+# what I do in my freetime
+- R Workshops
+- learning R and statistics
+- linux, software and open source
+- sorting my obsidean notes
+-->
 
 
 
