@@ -37,7 +37,7 @@ I am a BA social science student at [Justus-Liebig-University Gießen](https://w
 - Tutor: 
     - Empirical methods & data collection procedures 
     - Statistics
-- Student assistent for organizing a research and network conference with around 50 participants of the BMBF funding programm[International Humanities and Social Sciences](https://www.geistes-und-sozialwissenschaften-bmbf.de/en/International-Humanities-and-Social-Sciences-1696.html) 
+- Student assistent for organizing a research and network conference with around 50 participants of the BMBF funding programm [International Humanities and Social Sciences](https://www.geistes-und-sozialwissenschaften-bmbf.de/en/International-Humanities-and-Social-Sciences-1696.html) 
 ---
 - Workshop: Quantitative content analysis [8h] <br> [(Methodentage JLU 2023 - Dr. Marius Sältzer) ]{.small-grey-text}
 - Workshop: Intro to multilevel analysis [16h] <br> [(Methodentage JLU 2022 - Sandra Scheuring)   ]{.small-grey-text}

@@ -4,4 +4,27 @@ listing:
   contents: photography/astro 
 feed: 
   title: thhaase-astrophotography
+format:
+  html: 
+    page-layout: custom
 ---
+::: {.grid}
+
+::: {.g-col-3}
+[box]{.center-text}
+:::
+
+::: {.g-col-3}
+[box]{.center-text}
+:::
+
+::: {.g-col-3}
+[box]{.center-text}
+:::
+
+::: {.g-col}
+[box]{.center-text}
+:::
+
+:::
+

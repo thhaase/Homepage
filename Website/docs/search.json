@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Thomas Haase",
+    "title": "",
     "section": "",
-    "text": "Heading\nHier steht mein Text"
+    "text": "This column takes 2/3 of the page"
   },
   {
     "objectID": "blog.html",
@@ -18,7 +18,7 @@
     "href": "about.html",
     "title": "",
     "section": "",
-    "text": "Thomas Haase\nI am a BA social science student at Justus-Liebig-University Gießen and also serve as a tutor for empirical methods and statistics.\nExperience\n\nTutor:\n\nEmpirical methods & data collection procedures\nStatistics\n\nStudent assistent for organizing a research and network conference with around 50 participants of the BMBF funding programmInternational Humanities and Social Sciences\n\n\n\nWorkshop: Quantitative content analysis [8h]  (Methodentage JLU 2023 - Dr. Marius Sältzer)\nWorkshop: Intro to multilevel analysis [16h]  (Methodentage JLU 2022 - Sandra Scheuring)\nWorkshop: Intro to SEM [16h]  (Methodentage JLU 2022 - Dr. Henrik Andersen)\n\n\nEducation\n\n\n\n\n\n\n\n\nsince 10/2021\nB.A. Sozialwissenschaften, Justus-Liebig-Universität, Gießen\n\n\n2020 - 2021\nPhysik, Justus-Liebig-Universität, Gießen  Nicht Abgeschlossen - anschließender Fachwechsel\n\n\n\nInterests\nR | Statistics | Computational Sociology | General Sociological Theory |"
+    "text": "Thomas Haase\nI am a BA social science student at Justus-Liebig-University Gießen and also serve as a tutor for empirical methods and statistics.\nExperience\n\nTutor:\n\nEmpirical methods & data collection procedures\nStatistics\n\nStudent assistent for organizing a research and network conference with around 50 participants of the BMBF funding programm International Humanities and Social Sciences\n\n\n\nWorkshop: Quantitative content analysis [8h]  (Methodentage JLU 2023 - Dr. Marius Sältzer)\nWorkshop: Intro to multilevel analysis [16h]  (Methodentage JLU 2022 - Sandra Scheuring)\nWorkshop: Intro to SEM [16h]  (Methodentage JLU 2022 - Dr. Henrik Andersen)\n\n\nEducation\n\n\n\n\n\n\n\n\nsince 10/2021\nB.A. Sozialwissenschaften, Justus-Liebig-Universität, Gießen\n\n\n2020 - 2021\nPhysik, Justus-Liebig-Universität, Gießen  Nicht Abgeschlossen - anschließender Fachwechsel\n\n\n\nInterests\nR | Statistics | Computational Sociology | General Sociological Theory |"
   },
   {
     "objectID": "blog/2023-10-31-short-post-description/index.html",
@@ -39,7 +39,7 @@
     "href": "photography/astro/index.html",
     "title": "Astrophotography",
     "section": "",
-    "text": "Astrophotography\nHere are my Photos:"
+    "text": "Astrophotography\nHere are my Photos: ::: {.grid}\n\nbox\n\n\nbox\n\n\nbox\n\n\nbox\n\n:::"
   },
   {
     "objectID": "street.html",

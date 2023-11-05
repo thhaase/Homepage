@@ -7,6 +7,8 @@ website:
   favicon: media/beamer.png
   title: ""
   navbar:
+    collapse: true
+    collapse-below: sm
     pinned: true
     logo: media/beamer.png
     left:
@@ -40,6 +42,7 @@ website:
     right: 
       - text: "made with {{< fa heart >}} and quarto"
         href: https://quarto.org/
+
 
   search: false
 

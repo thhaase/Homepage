@@ -1,9 +1,22 @@
 ---
-title: "Thomas Haase" 
-image: media/foto1.png 
+title: "" 
 toc: false 
+format:
+  html: 
+    sidebar-width: 300px
+    body-width: 900px
+    margin-width: 300px
+    gutter-width: 1.5rem
 ---
+::: {.grid}
 
-# Heading
+::: {.g-col-4}
+![](media/foto2_2.png)
+:::
 
-Hier steht mein Text
+::: {.g-col-8}
+This column takes 2/3 of the page
+:::
+
+:::
+
