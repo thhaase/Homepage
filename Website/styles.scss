@@ -57,6 +57,24 @@ h2, h3, h4, h5, h6 {
   font-weight: 600 ;
 }
 
+.orange-h1-weighted {
+  font-size: 2rem; 
+  letter-spacing: 1px;
+  color: $color6;
+  font-family: "Nunito Sans";
+  font-weight: 800 ;
+  line-height: 2;
+}
+
+.yellow-h1-weighted {
+  font-size: 2rem; 
+  letter-spacing: 0px;
+  color: $color4;
+  font-family: "Nunito Sans";
+  font-weight: 800 ;
+  line-height: 2;
+}
+
 .orange-h1-thicc {
   font-size: 2rem; 
   letter-spacing: 0px;
@@ -93,9 +111,24 @@ h2, h3, h4, h5, h6 {
   color: $color6;
 }
 
+.text-scp {
+  font-family: "Source Code Pro";
+}
+
+.text-no-underline {
+  text-decoration: none;
+}
+
 .center-text {
   text-align: center;
 }
+.right-text {
+  text-align: right;
+}
+.left-text {
+  text-align: left;
+}
+
 
 .title {
   color: $color6;
@@ -116,6 +149,13 @@ h2, h3, h4, h5, h6 {
 .dropdown-text {
   color: $color4;
 }
+
+.dropdown-item:hover {
+  background: $color2;
+}
+
+
+
 
 .bi-twitter-x {
   background: $color4;
@@ -150,3 +190,31 @@ h2, h3, h4, h5, h6 {
 .quarto-listing-category-title {
   color: $color4;
 }
+
+// Buttons
+.button {
+  background-color: $color2; 
+  color: $color4;
+  padding: 15px 30px;;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.5s;
+  box-shadow: 0 10px 14px 0 rgba(0,0,0,0.24), 0 7px 12px 0 rgba(0,0,0,0.19);
+}
+
+.button:hover {
+  background-color: $color6; 
+  color: $color2;
+  padding: 15px 31px;;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.5s;
+}
+
+
