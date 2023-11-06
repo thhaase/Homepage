@@ -6,7 +6,24 @@ feed:
   title: thhaase-astrophotography
 format:
   html: 
-    page-layout: custom
+      sidebar-width: 0px
+      body-width: 1000px
+      margin-width: 100px
+      gutter-width: 0rem
+sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "Basics"
+        contents:
+          - index.qmd
+          - basics-knitr.qmd
+          - basics-jupyter.qmd
+      - section: "Layout"
+        contents:
+          - layout.qmd
+          - layout-knitr.qmd
+          - layout-jupyter.qmd
 ---
 :::{.grid}
 ::: {.g-col-12 .center-text}
@@ -14,22 +31,9 @@ format:
 :::
 :::
 
-::: {.grid}
-::: {.g-col-3 .center-text}
-[box]{.center-text}
-:::
+# Orionnebel
+:::{layout-ncol=2}
+![Orionnebel](photography/astro/23_02_04_orionnebel/Orionnebel6.jpeg){height=13}
 
-::: {.g-col-3 .center-text}
-[box]{.center-text}
+![Orionnebel cropped](photography/astro/23_02_04_orionnebel/Orionnebel2.jpg){height=310}
 :::
-
-::: {.g-col-3 .center-text}
-[box]{.center-text}
-:::
-
-::: {.g-col .center-text}
-[box]{.center-text}
-:::
-
-:::
-
