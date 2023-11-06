@@ -1,5 +1,5 @@
 ---
-title: "astro"
+title: ""
 listing: 
   contents: photography/astro 
 feed: 
@@ -8,21 +8,26 @@ format:
   html: 
     page-layout: custom
 ---
+:::{.grid}
+::: {.g-col-12 .center-text}
+[My Amateurastrophotography]{.orange-h1-thicc .text-height2}
+:::
+:::
+
 ::: {.grid}
-
-::: {.g-col-3}
+::: {.g-col-3 .center-text}
 [box]{.center-text}
 :::
 
-::: {.g-col-3}
+::: {.g-col-3 .center-text}
 [box]{.center-text}
 :::
 
-::: {.g-col-3}
+::: {.g-col-3 .center-text}
 [box]{.center-text}
 :::
 
-::: {.g-col}
+::: {.g-col .center-text}
 [box]{.center-text}
 :::
 
