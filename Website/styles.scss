@@ -57,6 +57,14 @@ h2, h3, h4, h5, h6 {
   font-weight: 600 ;
 }
 
+.orange-h1-thicc {
+  font-size: 2rem; 
+  letter-spacing: 0px;
+  color: $color6;
+  font-family: "Source Code Pro";
+  font-weight: 600 ;
+}
+
 .orange-h2 {
   font-size: 1.5rem; 
   line-height: 0.6;
@@ -64,6 +72,15 @@ h2, h3, h4, h5, h6 {
   color: $color6;
   font-family: "Nunito Sans";
   font-weight: 600 ;
+}
+
+.orange-h2-thicc {
+  font-size: 1.5rem; 
+  line-height: 0.6;
+  letter-spacing: 0px;
+  color: $color6;
+  font-family: "Source Code Pro";
+  font-weight: 300 ;
 }
 
 .small-grey-text {
@@ -76,12 +93,20 @@ h2, h3, h4, h5, h6 {
   color: $color6;
 }
 
+.center-text {
+  text-align: center;
+}
+
 .title {
   color: $color6;
 }
 
-.center-text {
-  text-align: center;
+.link-text {
+  font-size: 1.5rem; 
+  line-height: 0.6;
+  color: $color4;
+  font-family: "Source Code Pro";
+  font-weight: 300 ;
 }
 
 .dropdown-menu.show {
@@ -95,7 +120,6 @@ h2, h3, h4, h5, h6 {
 .bi-twitter-x {
   background: $color4;
 }
-
 
 
 // -- Blog Grid Styling -- //

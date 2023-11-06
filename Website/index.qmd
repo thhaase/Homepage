@@ -7,16 +7,25 @@ format:
     body-width: 900px
     margin-width: 300px
     gutter-width: 1.5rem
+from: markdown+emoji
 ---
-::: {.grid}
 
-::: {.g-col-4}
-![](media/foto2_2.png)
+::: grid
+::: g-col-4
+![](media/foto4.png)
 :::
 
-::: {.g-col-8}
-This column takes 2/3 of the page
+::: g-col-8
+\
+\
+\
+[Hi, I'm Thomas :grin:]{.orange-h1-thicc}\
+[welcome to my homepage]{.orange-h2-thicc}\
+\
+I'm a social science student at [Justus-Liebig-University Gießen](https://www.uni-giessen.de/de/fbz/fb03) and I like learning new things in R and statistics. \
+\
+[:link:[About me](./about.qmd)]{.link-text}
+:::
 :::
 
-:::
-
+lalalalalalalalalalal

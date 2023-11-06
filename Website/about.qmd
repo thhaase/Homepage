@@ -1,6 +1,6 @@
 ---
 title: "" 
-image: media/foto1.png
+image: media/foto1_2.png
 toc: false 
 format:
   html: 
@@ -25,7 +25,6 @@ about:
     - icon: spotify
       text: Spotify
       href: https://open.spotify.com/user/kvqz88xd4goy62kojjy507veu?si=KR6CHMmaTPmgJR3d1UdKHA
-
 ---
 
 [Thomas Haase]{.orange-h1}
@@ -43,7 +42,16 @@ I am a BA social science student at [Justus-Liebig-University Gießen](https://w
 - Workshop: Intro to multilevel analysis [16h] <br> [(Methodentage JLU 2022 - Sandra Scheuring)   ]{.small-grey-text}
 - Workshop: Intro to SEM                 [16h] <br> [(Methodentage JLU 2022 - Dr. Henrik Andersen)]{.small-grey-text}
 
-<p class="orange-h2">Education</p>
+[Skills]{.orange-h2}
+
+|          |                      |
+|--------- |----------------------|
+|          |                      |
+| Basics   | R, Git(-hub), Linux  |
+| Advanced | LaTeX                |
+
+[Education]{.orange-h2}
+
 |                   |                                                                                                |
 |------------------ |------------------------------------------------------------------------------------------------|
 | since 10/2021     | B.A. Sozialwissenschaften, Justus-Liebig-Universität, Gießen                                   |

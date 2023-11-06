@@ -2,10 +2,9 @@ project:
   type: website
   output-dir: docs
 
-  
 website:
-  favicon: media/beamer.png
   title: ""
+  favicon: media/beamer.png
   navbar:
     collapse: true
     collapse-below: sm
@@ -33,8 +32,7 @@ website:
         href: https://open.spotify.com/user/kvqz88xd4goy62kojjy507veu?si=KR6CHMmaTPmgJR3d1UdKHA
       - icon: envelope
         href: "mailto:thhaase.soz@gmail.com"
-
-
+        
   page-footer:
     background: dark # or dark
     left:
@@ -42,8 +40,7 @@ website:
     right: 
       - text: "made with {{< fa heart >}} and quarto"
         href: https://quarto.org/
-
-
+        
   search: false
 
 format:
