@@ -15,7 +15,8 @@
       "blog/reports/*.qmd",
       "blog/.qmd",
       "blog/2023-10-31-short-post-description/index.qmd",
-      "blog/2023-11-7-Blog-Tutorials/index.qmd"
+      "blog/2023-11-7-Blog-Tutorials/index.qmd",
+      "blog/2023-11-07-Blog-Tutorials/index.qmd"
     ]
   }
 }

@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "",
     "section": "",
-    "text": "Hi, I’m Thomas 😁\nwelcome to my site!\n\nI’m a social science student at Justus-Liebig-University Gießen and I like learning new things in R and statistics.\n\n🔗About me\n\n\n\n\nNavigation\n\n\n\nBlog\n\n\nAstrophotos\n\n\nStreetphotos\n\n\nAbout\n\n\n\n\n\n\n\nHighlighted Projects\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Hi, I’m Thomas 😁\nwelcome to my site!\n\nI’m a social science student at Justus-Liebig-University Gießen and I like learning new things in R and statistics.\n\n🔗About me\n\n\n\n\nNavigation\n\n\n\nBlog\n\n\nAstrophotos\n\n\nStreetphotos\n\n\nAbout\n\n\n\n\n\n\n\nHighlighted Projects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow to make a Quarto-Website\n\n\nList of tutorials and tips I used to make this page\n\n\n\nThomas Haase\n\n\nNov 7, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog.html",
@@ -131,5 +131,12 @@
     "title": "Astrophotos",
     "section": "Close Up",
     "text": "Close Up\n\n\n\nTycho - Gießen 26.11.23\n\n\n\n\n\n\n\n\n(through Clouds) Gießen 26.11.23\n\n\n\n\n\n\n\n(through Clouds) Gießen 26.11.23\n\n\n\n\n\n\n\n\n\n\n\nTycho (through Clouds) - Gießen 26.11.23"
+  },
+  {
+    "objectID": "blog/2023-11-07-Blog-Tutorials/index.html",
+    "href": "blog/2023-11-07-Blog-Tutorials/index.html",
+    "title": "How to make a Quarto-Website",
+    "section": "",
+    "text": "List of Tutorials\nThis Videoseries explains the basics:\nhttps://youtube.com/playlist?list=PLkrJrLs7xfbXcEKhTCKRSr2VXH4yiBeXo&feature=shared\n\n\nThis tutorial explains how to link a Quartowebsite and a Quartoblog together:\nhttps://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/\n\n\nWith this tutorial you can learn how to customize your quartopage:\nhttps://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide\n\n\nAfter that the only thing you need is the brilliant quarto-documentation: https://quarto.org/docs/websites/\n\n\nWhy Githubpages\nDownsides:\n\nno custom URL\npublic Code\n\nWhy it’s still the best Option (for me)\n\neasiest deployment ever\nfree !!!\n\n\n\n\n\nCitationBibTeX citation:@online{haase2023,\n  author = {Haase, Thomas},\n  title = {How to Make a {Quarto-Website}},\n  date = {2023-11-07},\n  url = {https://thhaase.github.io/posts/2022-10-24-my-blog-post/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nHaase, Thomas. 2023. “How to Make a Quarto-Website.”\nNovember 7, 2023. https://thhaase.github.io/posts/2022-10-24-my-blog-post/."
   }
 ]

@@ -25,5 +25,8 @@
   },
   "astro.qmd": {
     "astro.html": "1bbc9923"
+  },
+  "blog/2023-11-07-Blog-Tutorials/index.qmd": {
+    "index.html": "a0a76b0c"
   }
 }
