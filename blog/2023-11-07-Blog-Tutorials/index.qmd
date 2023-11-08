@@ -3,11 +3,11 @@ title: "How to make a Quarto-Website"
 description: "List of tutorials and tips I used to make this page"
 author:
   - name: Thomas Haase
-    url: https://thhaase.github.io/
+    url: https://thhaase.github.io/Homepage/
 date: 11-07-2023
-categories: [Quarto, Blog] # self-defined categories
+categories: [Quarto, Blog] 
 citation: 
-  url: https://thhaase.github.io/posts/2022-10-24-my-blog-post/ 
+  url: https://thhaase.github.io/Homepage/blog/2023-11-07-Blog-Tutorials/ 
 image: preview-image.jpg
 draft: false 
 ---
