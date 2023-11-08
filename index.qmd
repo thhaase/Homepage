@@ -52,7 +52,7 @@ I'm a social science student at [Justus-Liebig-University Gießen](https://www.u
 </div>
 \
 ---
-<link href="https://social.example.com/@username" rel="me">
+<link href="https://social.tchncs.de/@thhaase" rel="me">
 
 <div class="center-text orange-h1-weighted"> Highlighted Projects </div>
 
