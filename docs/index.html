@@ -63,9 +63,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: [{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: [],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -213,7 +213,7 @@ Navigation
 <p><br>
 </p>
 <hr>
-<p><link href="https://social.example.com/@username" rel="me"></p>
+<p><link href="https://social.tchncs.de/@thhaase" rel="me"></p>
 <div class="center-text orange-h1-weighted">
 Highlighted Projects
 </div>
@@ -223,31 +223,7 @@ Highlighted Projects
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Quarto,Blog" data-listing-date-sort="1699311600000" data-listing-file-modified-sort="1699395746065" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./blog/2023-10-31-short-post-description/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./blog/2023-10-31-short-post-description/preview-image.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-How to make a Quarto-Website
-</h5>
-<div class="card-text listing-description">
-List of tutorials and tips I used to make this page
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Thomas Haase
-</div>
-<div class="listing-date">
-Nov 7, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
+
 </div>
 <div class="listing-no-matching d-none">
 No matching items
