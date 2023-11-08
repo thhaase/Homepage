@@ -1,0 +1,14 @@
+{
+  "hash": "c79231bba1adf8af30e41d0cabb487d4",
+  "result": {
+    "markdown": "---\ntitle: \"Thomas Haase\" \nimage: media/jupiter.jpg \ntoc: false \nabout: \n  template: trestles\n  image-width: 20em\n#  links:\n#    - icon: github\n#      text: GitHub\n#      href: https://github.com/thhaase\n---\n\n\nThis is a Quarto website.\n\nTo learn more about Quarto websites visit <https://quarto.org/docs/websites>.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
