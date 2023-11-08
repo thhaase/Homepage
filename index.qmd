@@ -11,7 +11,7 @@ from: markdown+emoji
 
 listing: 
   contents:
-    - "blog/2023-11-7-Blog-Tutorials/index.qmd"
+    - "blog/2023-11-07-Blog-Tutorials/index.qmd"
   type: grid 
   sort: false 
   categories: false 
