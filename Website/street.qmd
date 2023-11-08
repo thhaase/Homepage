@@ -1,7 +1,37 @@
 ---
-title: "street"
+title: ""
 listing: 
-  contents: photography/street 
-feed: 
-  title: thhaase-streetphotography
+  contents: photography/astro 
+format:
+  html:
+    toc: false
 ---
+
+# Streetphotos
+
+![](photography/street/wien_park.jpg)
+
+---
+
+::: {layout-ncol=2}
+![](photography/street/wien_trinkbrunnen.jpg){width=40%}
+
+![](photography/street/wien_straße.jpg){width="40%"}
+:::
+---
+
+![](photography/street/wien_bus.jpg)
+
+---
+
+::: {layout-ncol=2}
+![](photography/street/scarabee2.jpg){width=50%}
+
+![](photography/street/wien_wurstbude1.jpg){width=50%}
+:::
+
+
+
+
+
+

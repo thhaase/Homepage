@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Blog - Thomas Haase">
+<meta name="description" content="Thomas Blogposts">
 
 <title>Blog</title>
 <style>
@@ -64,9 +64,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -121,11 +121,11 @@ ul.task-list li input[type="checkbox"] {
     <ul class="dropdown-menu" aria-labelledby="nav-menu-photography">    
         <li>
     <a class="dropdown-item" href="./astro.html" rel="" target="">
- <span class="dropdown-text">astro</span></a>
+ <span class="dropdown-text"><span class="orange-text">Astrophotos</span></span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./street.html" rel="" target="">
- <span class="dropdown-text">street</span></a>
+ <span class="dropdown-text">Streetphotos</span></a>
   </li>  
     </ul>
   </li>
@@ -173,7 +173,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="MEDS">MEDS <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Quarto">Quarto <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Blog">Blog <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Quarto">Quarto <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -184,7 +184,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    Blog - Thomas Haase
+    Thomas Blogposts
   </div>
 </div>
 
@@ -203,43 +203,45 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Quarto,R,MEDS" data-listing-date-sort="1666562400000" data-listing-file-modified-sort="1698781885005" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./blog/2023-10-31-short-post-description/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./blog/2023-10-31-short-post-description/preview-image.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-blog post title
-</h5>
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="Quarto,Blog" data-listing-date-sort="1699311600000" data-listing-file-modified-sort="1699395746065" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./blog/2023-10-31-short-post-description/index.html"> <img src="./blog/2023-10-31-short-post-description/preview-image.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./blog/2023-10-31-short-post-description/index.html">
+<h3 class="no-anchor listing-title">
+How to make a Quarto-Website
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Quarto'); return false;">
 Quarto
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('MEDS'); return false;">
-MEDS
+<div class="listing-category" onclick="window.quartoListingCategory('Blog'); return false;">
+Blog
 </div>
 </div>
-<div class="card-text listing-description">
-blog post description (appears underneath the title in smaller text) which is included on the listing page
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Samantha Csik
-</div>
-<div class="listing-date">
-Oct 24, 2022
-</div>
-</div>
-</div>
+<a href="./blog/2023-10-31-short-post-description/index.html">
+<div class="listing-description">
+<p>List of tutorials and tips I used to make this page</p>
 </div>
 </a>
+</div>
+<div class="metadata">
+<a href="./blog/2023-10-31-short-post-description/index.html">
+<div class="listing-date">
+Nov 7, 2023
+</div>
+<div class="listing-author">
+Thomas Haase
+</div>
+</a>
+</div>
 </div>
 </div>
 <div class="listing-no-matching d-none">

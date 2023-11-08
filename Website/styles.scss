@@ -119,6 +119,11 @@ h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 
+.center {
+  align-content: center;
+  align-items: center;
+}
+
 .center-text {
   text-align: center;
 }
@@ -132,7 +137,11 @@ h2, h3, h4, h5, h6 {
   line-height: 2;
 }
 
-.title {
+// .title {
+//  color: $color6;
+//}
+
+.description {
   color: $color6;
 }
 
@@ -157,10 +166,14 @@ h2, h3, h4, h5, h6 {
 }
 
 
-
-
 .bi-twitter-x {
   background: $color4;
+}
+
+
+//Sidebar TOC
+.sidebar nav {
+
 }
 
 
@@ -193,7 +206,23 @@ h2, h3, h4, h5, h6 {
   color: $color4;
 }
 
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+ -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
 // Buttons
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 .button {
   background-color: $color2; 
   color: $color4;
@@ -219,4 +248,8 @@ h2, h3, h4, h5, h6 {
   transition-duration: 0.5s;
 }
 
-
+@media screen and (max-width: 600px) {
+  .button-container {
+    align-items: flex-start; 
+  }
+}

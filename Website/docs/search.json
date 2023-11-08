@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "",
     "section": "",
-    "text": "Hi, I’m Thomas 😁\nwelcome to my site!\n\nI’m a social science student at Justus-Liebig-University Gießen and I like learning new things in R and statistics.\n\n🔗About me\n\n\n\n\nHighlighted Projects\n\n\n\nProject 1\n\n\nProject 2\n\n\nProject 3\n\n\n\n\nNavigation\n\n\n\nBlog\n\n\nAstrophotos\n\n\nStreetphotos\n\n\nAbout"
+    "text": "Hi, I’m Thomas 😁\nwelcome to my site!\n\nI’m a social science student at Justus-Liebig-University Gießen and I like learning new things in R and statistics.\n\n🔗About me\n\n\n\n\nNavigation\n\n\n\nBlog\n\n\nAstrophotos\n\n\nStreetphotos\n\n\nAbout\n\n\n\n\n\n\nHighlighted Projects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow to make a Quarto-Website\n\n\nList of tutorials and tips I used to make this page\n\n\n\nThomas Haase\n\n\nNov 7, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog.html",
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "blog post title\n\n\n\nQuarto\n\n\nR\n\n\nMEDS\n\n\n\nblog post description (appears underneath the title in smaller text) which is included on the listing page\n\n\n\nSamantha Csik\n\n\nOct 24, 2022\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "How to make a Quarto-Website\n\n\n\n\n\n\n\nQuarto\n\n\nBlog\n\n\n\n\nList of tutorials and tips I used to make this page\n\n\n\n\n\n\nNov 7, 2023\n\n\nThomas Haase\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -23,16 +23,16 @@
   {
     "objectID": "blog/2023-10-31-short-post-description/index.html",
     "href": "blog/2023-10-31-short-post-description/index.html",
-    "title": "blog post title",
+    "title": "How to make a Quarto-Website",
     "section": "",
-    "text": "CitationBibTeX citation:@online{csik2022,\n  author = {Csik, Samantha},\n  title = {Blog Post Title},\n  date = {2022-10-24},\n  url = {https://samanthacsik.github.io/posts/2022-10-24-my-blog-post/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nCsik, Samantha. 2022. “Blog Post Title.” October 24, 2022.\nhttps://samanthacsik.github.io/posts/2022-10-24-my-blog-post/."
+    "text": "List of Tutorials\nThis Videoseries explains the basics:\nhttps://youtube.com/playlist?list=PLkrJrLs7xfbXcEKhTCKRSr2VXH4yiBeXo&feature=shared\n\n\nThis tutorial explains how to link a Quartowebsite and a Quartoblog together:\nhttps://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/\n\n\nWith this tutorial you can learn how to customize your quartopage:\nhttps://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide\n\n\nAfter that the only thing you need is the brilliant quarto-documentation: https://quarto.org/docs/websites/\n\n\nWhy Githubpages\nDownsides:\n\nno custom URL\npublic Code\n\nWhy it’s still the best Option (for me)\n\neasiest deployment ever\nfree !!!\n\n\n\n\n\nCitationBibTeX citation:@online{haase2023,\n  author = {Haase, Thomas},\n  title = {How to Make a {Quarto-Website}},\n  date = {2023-11-07},\n  url = {https://thhaase.github.io/posts/2022-10-24-my-blog-post/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nHaase, Thomas. 2023. “How to Make a Quarto-Website.”\nNovember 7, 2023. https://thhaase.github.io/posts/2022-10-24-my-blog-post/."
   },
   {
     "objectID": "astro.html",
     "href": "astro.html",
-    "title": "Orionnebel",
+    "title": "Astrophotos",
     "section": "",
-    "text": "My Amateurastrophotography\n\n\n\nOrionnebel\n\n\n\n\n\n\nOrionnebel\n\n\n\n\n\n\n\nOrionnebel cropped\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Astrophotos\n\n\nOrionnebel\n\n\n\n\n\n\nOrionnebel\n\n\n\n\n\n\n\nOrionnebel cropped\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "photography/astro/index.html",
@@ -44,9 +44,9 @@
   {
     "objectID": "street.html",
     "href": "street.html",
-    "title": "street",
+    "title": "Streetphotos",
     "section": "",
-    "text": "Streetphotography\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "Streetphotos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "photography/street/index.html",
@@ -96,5 +96,40 @@
     "title": "",
     "section": "Hobbies",
     "text": "Hobbies"
+  },
+  {
+    "objectID": "astro.html#jupiter",
+    "href": "astro.html#jupiter",
+    "title": "Astrophotos",
+    "section": "Jupiter",
+    "text": "Jupiter\n\n\n\n\n\n\nJupiter - Wasserkuppe 26.09.23\n\n\n\n\n\n\n\nJupiter - Wasserkuppe 26.09.23\n\n\n\n\n\n\n\n\nJupiter with 2 moons - Gießen 21.09.23"
+  },
+  {
+    "objectID": "astro.html#saturn",
+    "href": "astro.html#saturn",
+    "title": "Astrophotos",
+    "section": "Saturn",
+    "text": "Saturn\n\n\n\nSaturn - Gießen 21.09.23"
+  },
+  {
+    "objectID": "astro.html#orionnebula",
+    "href": "astro.html#orionnebula",
+    "title": "Astrophotos",
+    "section": "Orionnebula",
+    "text": "Orionnebula\n\n\n\n\n\n\nOrionnebula - Gießen 04.02.23\n\n\n\n\n\n\n\nOrionnebula cropped - Gießen 04.02.23\n\n\n\n\n\n\n\n\nAndromeda - Gießen 21.09.23"
+  },
+  {
+    "objectID": "astro.html#full-disc",
+    "href": "astro.html#full-disc",
+    "title": "Astrophotos",
+    "section": "Full Disc",
+    "text": "Full Disc\n\n\n\nMond - Gießen 02.09.23\n\n\n\n\n\n\n\n\nMond - Gießen 02.09.23\n\n\n\n\n\n\n\nMond - Gießen 06.05.23"
+  },
+  {
+    "objectID": "astro.html#close-up",
+    "href": "astro.html#close-up",
+    "title": "Astrophotos",
+    "section": "Close Up",
+    "text": "Close Up\n\n\n\nTycho - Gießen 26.11.23\n\n\n\n\n\n\n\n\n(through Clouds) Gießen 26.11.23\n\n\n\n\n\n\n\n(through Clouds) Gießen 26.11.23\n\n\n\n\n\n\n\n\n\n\n\nTycho (through Clouds) - Gießen 26.11.23"
   }
 ]

@@ -8,6 +8,14 @@ format:
     margin-width: 300px
     gutter-width: 1.5rem
 from: markdown+emoji
+
+listing: 
+  contents:
+    - "blog/2023-10-31-short-post-description/index.qmd"
+  type: grid 
+  sort: false 
+  categories: false 
+  feed: false
 ---
 
 ::: grid
@@ -30,20 +38,20 @@ I'm a social science student at [Justus-Liebig-University Gießen](https://www.u
 
 ---
 
-<div class="center-text orange-h1-weighted"> Highlighted Projects </div>
-
-<div class="grid">
-  <div class="g-col-4 center-text"> Project 1 </div>
-  <div class="g-col-4 center-text"> Project 2 </div>
-  <div class="g-col-4 center-text"> Project 3 </div>
-</div>
-
----
 <div class="center-text orange-h1-weighted"> Navigation </div>
 
-<div class="grid">
+<div class="grid button-container">
   <div class="g-col-3 right-text  text-scp">[ [Blog](./blog.qmd) ]{.button}</div>
+  
   <div class="g-col-3 center-text text-scp">[ [Astrophotos](./astro.qmd)]{.button}</div>
+  
   <div class="g-col-3 center-text text-scp">[ [Streetphotos](./street.qmd) ]{.button}</div>
+  
   <div class="g-col-3 left-text   text-scp">[ [About](./about.qmd) ]{.button}</div>
+  
 </div>
+\
+---
+
+<div class="center-text orange-h1-weighted"> Highlighted Projects </div>
+
