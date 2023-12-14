@@ -12,16 +12,16 @@ about:
   links:
     - icon: mastodon
       text: Mastodon
-      href: social.tchncs.de/@thhaase
+      href: https://social.tchncs.de/@thhaase
     - icon: github
       text: Github
-      href: github.com/thhaase
+      href: https://github.com/thhaase
     - icon: envelope
       text: E-Mail
       href: "mailto:thhaase.soz@gmail.com"
     - icon: twitter
       text: Twitter/ X
-      href: x.com/thhaase_
+      href: https://twitter.com/thhaase_
     - icon: spotify
       text: Spotify
       href: https://open.spotify.com/user/kvqz88xd4goy62kojjy507veu?si=KR6CHMmaTPmgJR3d1UdKHA
