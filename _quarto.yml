@@ -22,16 +22,17 @@ website:
         text: About
         
     right:
-      - icon: mastodon
-        href: social.tchncs.de/@thhaase
-      - icon: twitter
-        href: x.com/thhaase_
-      - icon: github
-        href: github.com/thhaase
-      - icon: spotify
-        href: https://open.spotify.com/user/kvqz88xd4goy62kojjy507veu?si=KR6CHMmaTPmgJR3d1UdKHA
-      - icon: envelope
-        href: "mailto:thhaase.soz@gmail.com"
+    - icon: mastodon
+      href: https://social.tchncs.de/@thhaase
+    - icon: twitter
+      href: https://twitter.com/thhaase_
+    - icon: github
+      href: https://github.com/thhaase
+    - icon: spotify
+      href: https://open.spotify.com/user/kvqz88xd4goy62kojjy507veu?si=KR6CHMmaTPmgJR3d1UdKHA
+    - icon: envelope
+      href: "mailto:thhaase.soz@gmail.com"
+
         
   page-footer:
     background: dark # or dark
