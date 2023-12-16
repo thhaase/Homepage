@@ -11,7 +11,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "How to make a Quarto-Website\n\n\n\n\n\n\n\nQuarto\n\n\nBlog\n\n\n\n\nList of tutorials and tips I used to make this page\n\n\n\n\n\n\nNov 7, 2023\n\n\nThomas Haase\n\n\n\n\n\n\nNo matching items"
+    "text": "Making sense of Dissent.is\n\n\n\n\n\n\n\nStefan M. Seydel\n\n\nDissent.is\n\n\n\n\nwhat is sms2sms\n\n\n\n\n\n\nDec 16, 2023\n\n\nThomas Haase\n\n\n\n\n\n\n  \n\n\n\n\nHow to make a Quarto-Website\n\n\n\n\n\n\n\nQuarto\n\n\nBlog\n\n\n\n\nList of tutorials and tips I used to make this page\n\n\n\n\n\n\nNov 7, 2023\n\n\nThomas Haase\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -138,5 +138,54 @@
     "title": "How to make a Quarto-Website",
     "section": "",
     "text": "List of Tutorials\nThis Videoseries explains the basics:\nhttps://youtube.com/playlist?list=PLkrJrLs7xfbXcEKhTCKRSr2VXH4yiBeXo&feature=shared\n\n\nThis tutorial explains how to link a Quartowebsite and a Quartoblog together:\nhttps://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/\n\n\nWith this tutorial you can learn how to customize your quartopage:\nhttps://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide\n\n\nAfter that the only thing you need is the brilliant quarto-documentation: https://quarto.org/docs/websites/\n\n\nWhy Githubpages\nDownsides:\n\nno custom URL\npublic Code\n\nWhy it’s still the best Option (for me)\n\neasiest deployment ever\nfree !!!\n\n\n\n\n\nCitationBibTeX citation:@online{haase2023,\n  author = {Haase, Thomas},\n  title = {How to Make a {Quarto-Website}},\n  date = {2023-11-07},\n  url = {https://thhaase.github.io/Homepage/blog/2023-11-07-Blog-Tutorials/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nHaase, Thomas. 2023. “How to Make a Quarto-Website.”\nNovember 7, 2023. https://thhaase.github.io/Homepage/blog/2023-11-07-Blog-Tutorials/."
+  },
+  {
+    "objectID": "blog/2023-11-08-Letterboxed-Scraper-1/index.html",
+    "href": "blog/2023-11-08-Letterboxed-Scraper-1/index.html",
+    "title": "Letterboxed Scraper in R",
+    "section": "",
+    "text": "With Letterboxed users can rate and comment films, aswell as make lists of movies for certain topics and keep track of the movies they watched by logging them.\nBefore watching a movie in the cinema I ask myself if it’s worth the money and effort, and I wanted to answer the following questions:\n\n“why do people think the movie is bad”\n“what did people who enjoyed the movie like about it”\n\nI will answer these questions in my next blogpost"
+  },
+  {
+    "objectID": "blog/2023-11-08-Letterboxed-Scraper-1/index.html#loading-librarys",
+    "href": "blog/2023-11-08-Letterboxed-Scraper-1/index.html#loading-librarys",
+    "title": "Letterboxed Scraper in R",
+    "section": "Loading librarys",
+    "text": "Loading librarys\n\nrvest is necessary for scraping\ntidyverse is used for pipeing data efficiently and because it loads stringr for cleaningpurposes\n\nlibrary(rvest)\nlibrary(tidyverse)"
+  },
+  {
+    "objectID": "blog/2023-11-08-Letterboxed-Scraper-1/index.html#scraping-function-explained",
+    "href": "blog/2023-11-08-Letterboxed-Scraper-1/index.html#scraping-function-explained",
+    "title": "Letterboxed Scraper in R",
+    "section": "scraping function explained",
+    "text": "scraping function explained\nWebpages consist of a html framework. To view or download it by hand rightclick on a page and “Show page Source text”. So when understanding how to download webpages it’s necessary to at least learn the very basics of html (wich isn’t that hard, trust me).\nI wont explain HTML here, this is a scraping tutorial. If you dont know anything about html go on Youtube, watch a short introvideo and come back."
+  },
+  {
+    "objectID": "blog/2023-12-16-Dissent_is/index.html",
+    "href": "blog/2023-12-16-Dissent_is/index.html",
+    "title": "Making sense of Dissent.is",
+    "section": "",
+    "text": "11min srf radiobeitrag\nWikipedia sms\nWikipedia rebelltv"
+  },
+  {
+    "objectID": "blog/2023-12-16-Dissent_is/index.html#luhmannmap",
+    "href": "blog/2023-12-16-Dissent_is/index.html#luhmannmap",
+    "title": "Making sense of Dissent.is",
+    "section": "LuhmannMap",
+    "text": "LuhmannMap\n\n4rules4radicals\n\nhttps://dissent.is/2022/09/27/4r4r/"
+  },
+  {
+    "objectID": "blog/2023-12-16-Dissent_is/index.html#zurück-zur-luhmannmap",
+    "href": "blog/2023-12-16-Dissent_is/index.html#zurück-zur-luhmannmap",
+    "title": "Making sense of Dissent.is",
+    "section": "zurück zur Luhmann(Map)",
+    "text": "zurück zur Luhmann(Map)\n\nklick\nklick2\n\n\nAußerdem:\n\ndissent.is letzte generation"
+  },
+  {
+    "objectID": "blog/2023-12-16-Dissent_is/index.html#aby-warburg-workflow",
+    "href": "blog/2023-12-16-Dissent_is/index.html#aby-warburg-workflow",
+    "title": "Making sense of Dissent.is",
+    "section": "Aby Warburg + “workflow”",
+    "text": "Aby Warburg + “workflow”\n\ndissent.is aby warburg\nDie Form der Unruhe 2 (Abschnitt 5)"
   }
 ]

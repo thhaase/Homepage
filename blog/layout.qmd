@@ -1,0 +1,13 @@
+---
+title: "title"
+description: "description"
+author:
+  - name: Thomas Haase
+    url: https://thhaase.github.io/Homepage/
+date: mm-dd-yyyy
+categories: [tag1, tag2] 
+citation: 
+  url: https://thhaase.github.io/Homepage/blog/yyy-mm-dd-short-description/ 
+image: preview-image.jpg
+draft: true 
+---

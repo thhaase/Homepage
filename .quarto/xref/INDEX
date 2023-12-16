@@ -28,5 +28,14 @@
   },
   "blog/2023-11-07-Blog-Tutorials/index.qmd": {
     "index.html": "a0a76b0c"
+  },
+  "blog/2023-11-08-Letterboxed-Scraper-1/index.qmd": {
+    "index.html": "8422581b"
+  },
+  "blog/layout.qmd": {
+    "layout.html": "95cb7cc3"
+  },
+  "blog/2023-12-16-Dissent_is/index.qmd": {
+    "index.html": "5b931611"
   }
 }

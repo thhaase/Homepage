@@ -1,0 +1,95 @@
+---
+title: "[1] Letterboxed Comment Scraper in R"
+description: "Tutorial for basic webscraping with R"
+author:
+  - name: Thomas Haase
+    url: https://thhaase.github.io/Homepage/
+date: 11-16-2023
+categories: [Scraping, R] 
+citation: 
+  url: https://thhaase.github.io/Homepage/blog/2023-11-16-short-description/ 
+image: preview-image.jpg
+draft: true 
+---
+
+# What is Letterboxed and why bother scraping it
+
+With [Letterboxed](https://letterboxd.com/) users can rate and comment films, aswell as make lists of movies for certain topics and keep track of the movies they watched by logging them.
+
+Before watching a movie in the cinema I asked myself if it's worth the money and effort. It narrowed down to 3 questions:
+
+-   What did people who enjoyed the movie like about it?
+
+-   What did people who didn't enjoy the movie dislike about it?
+
+-   Do people with different ratings focus on different topics in their comments?
+
+I will answer these questions in my next blogpost based on the data I scraped.
+
+# How to scrape the Letterboxed comments
+
+I will provide the whole code at the bottom of this article. Firsst I will explain what is happening.
+
+## Loading librarys
+
+-   rvest is necessary for scraping
+-   tidyverse is used for pipeing data efficiently and because it loads stringr for cleaningpurposes
+
+```{r}
+#| warning: false
+
+library(rvest)
+library(tidyverse)
+```
+
+## main scraping loop explained
+
+Letterboxed only displays 12 comments per page. This is not good, because we can't just download the html and have all the comments, we need to get more tricky. Luckily i observed the url changing when opening the next page of comments. This means we can automatically generate the urls of the page with a loop and rotate through the pages while always adding the newly scraped content to the big dataframe.
+
+
+```{r eval=FALSE, message=FALSE, warning=FALSE, include=FALSE}
+scrape_page <- function(x){}
+```
+
+
+```{r message=FALSE, warning=FALSE}
+# how many pages should be scraped?
+num_pages <- 2
+
+# initialize empty data frame for scraped data
+df <- data.frame()
+
+# scraping pages
+for (page_number in 1:num_pages) {
+  cat("Scraping page:", page_number, "\n")
+  scraped_data <- scrape_page(page_number)
+  df <- rbind(df, scraped_data) # adding the scraped data to the dataframe
+}
+
+```
+
+## scraping function
+
+In the for-loop I used the following "scrape_page()" function I defined before.
+
+```{r}
+scrape_page <- function(page_number) {
+  url <- paste0("https://letterboxd.com/film/barbie/reviews/page/", page_number, "/")
+  page <- read_html(url)
+  
+  name_data <- page %>% html_elements(".name") %>% html_text(trim = TRUE)
+  comment_data <- page %>% html_elements(".collapsible-text p") %>% html_text(trim = TRUE)
+  date_data <- page %>% html_elements("._nobr") %>% html_text(trim = TRUE)
+  rating_data <- page %>% html_elements(".-green") %>% html_text(trim = TRUE)
+  
+  # Ensure all vectors have the same length by using NA for missing elements
+  max_length <- max(length(name_data), length(comment_data), length(date_data), length(rating_data))
+  name_data <- rep(name_data, length.out = max_length)
+  comment_data <- rep(comment_data, length.out = max_length)
+  date_data <- rep(date_data, length.out = max_length)
+  rating_data <- rep(rating_data, length.out = max_length)
+  
+  data.frame(name_data, comment_data, date_data, rating_data)
+}
+
+```
