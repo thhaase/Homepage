@@ -1,13 +1,12 @@
 ---
 title: "" 
-image: media/foto1_2.png
 toc: false 
 format:
   html: 
     grid:
       body-width: 950px
 about: 
-  template: trestles
+  template: marquee
   image-width: 20em
   links:
     - icon: mastodon
@@ -29,7 +28,12 @@ about:
 
 [Thomas Haase]{.orange-h1}
 
-I am a BA social science student at [Justus-Liebig-University Gießen](https://www.uni-giessen.de/de/fbz/fb03) and also serve as a tutor for empirical methods and statistics. 
+::: {.callout-note}
+This is my "professional" aboutpage (atleast as it can get). <br>
+For insights into my personal life/projects please visit the rest of this website.
+:::
+
+I am a BA social science student at [Justus-Liebig-University Gießen](https://www.uni-giessen.de/de/fbz/fb03) and also serve as a tutor for empirical methods and statistics.
 
 [Experience]{.orange-h2}
 
@@ -55,7 +59,7 @@ I am a BA social science student at [Justus-Liebig-University Gießen](https://w
 |                   |                                                                                                |
 |------------------ |------------------------------------------------------------------------------------------------|
 | since 10/2021     | B.A. Sozialwissenschaften, Justus-Liebig-Universität, Gießen                                   |
-| 2020 - 2021       | Physik, Justus-Liebig-Universität, Gießen <br> [Nicht Abgeschlossen - anschließender Fachwechsel]{.small-grey-text} |
+| 2020 - 2021       | Physik, Justus-Liebig-Universität, Gießen <br> [Not completed - subsequent change of subject]{.small-grey-text} |
 
 [Interests]{.orange-h2}
 

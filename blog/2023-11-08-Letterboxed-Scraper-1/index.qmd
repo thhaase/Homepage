@@ -10,6 +10,7 @@ citation:
   url: https://thhaase.github.io/Homepage/blog/2023-11-16-short-description/ 
 image: preview-image.jpg
 draft: true 
+freeze: true
 ---
 
 # What is Letterboxed and why bother scraping it

@@ -18,7 +18,7 @@
     "href": "about.html",
     "title": "",
     "section": "",
-    "text": "Thomas Haase\nI am a BA social science student at Justus-Liebig-University Gießen and also serve as a tutor for empirical methods and statistics.\nExperience\n\nTutor:\n\nEmpirical methods & data collection procedures\nStatistics\n\nStudent assistent for organizing a research and network conference with around 50 participants of the BMBF funding programm International Humanities and Social Sciences\n\n\n\nWorkshop: Quantitative content analysis [8h]  (Methodentage JLU 2023 - Dr. Marius Sältzer)\nWorkshop: Intro to multilevel analysis [16h]  (Methodentage JLU 2022 - Sandra Scheuring)\nWorkshop: Intro to SEM [16h]  (Methodentage JLU 2022 - Dr. Henrik Andersen)\n\nSkills\n\n\n\n\n\n\n\nBasics\nR, Git(-hub), Linux\n\n\nAdvanced\nLaTeX\n\n\n\nEducation\n\n\n\n\n\n\n\nsince 10/2021\nB.A. Sozialwissenschaften, Justus-Liebig-Universität, Gießen\n\n\n2020 - 2021\nPhysik, Justus-Liebig-Universität, Gießen  Nicht Abgeschlossen - anschließender Fachwechsel\n\n\n\nInterests\nR | Statistics | Computational Sociology | General Sociological Theory |"
+    "text": "Thomas Haase\n\n\n\n\n\n\nNote\n\n\n\nThis is my “professional” aboutpage (atleast as it can get).  For insights into my personal life/projects please visit the rest of this website.\n\n\nI am a BA social science student at Justus-Liebig-University Gießen and also serve as a tutor for empirical methods and statistics.\nExperience\n\nTutor:\n\nEmpirical methods & data collection procedures\nStatistics\n\nStudent assistent for organizing a research and network conference with around 50 participants of the BMBF funding programm International Humanities and Social Sciences\n\n\n\nWorkshop: Quantitative content analysis [8h]  (Methodentage JLU 2023 - Dr. Marius Sältzer)\nWorkshop: Intro to multilevel analysis [16h]  (Methodentage JLU 2022 - Sandra Scheuring)\nWorkshop: Intro to SEM [16h]  (Methodentage JLU 2022 - Dr. Henrik Andersen)\n\nSkills\n\n\n\n\n\n\n\nBasics\nR, Git(-hub), Linux\n\n\nAdvanced\nLaTeX\n\n\n\nEducation\n\n\n\n\n\n\n\nsince 10/2021\nB.A. Sozialwissenschaften, Justus-Liebig-Universität, Gießen\n\n\n2020 - 2021\nPhysik, Justus-Liebig-Universität, Gießen  Not completed - subsequent change of subject\n\n\n\nInterests\nR | Statistics | Computational Sociology | General Sociological Theory |"
   },
   {
     "objectID": "blog/2023-10-31-short-post-description/index.html",
@@ -140,27 +140,6 @@
     "text": "List of Tutorials\nThis Videoseries explains the basics:\nhttps://youtube.com/playlist?list=PLkrJrLs7xfbXcEKhTCKRSr2VXH4yiBeXo&feature=shared\n\n\nThis tutorial explains how to link a Quartowebsite and a Quartoblog together:\nhttps://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/\n\n\nWith this tutorial you can learn how to customize your quartopage:\nhttps://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide\n\n\nAfter that the only thing you need is the brilliant quarto-documentation: https://quarto.org/docs/websites/\n\n\nWhy Githubpages\nDownsides:\n\nno custom URL\npublic Code\n\nWhy it’s still the best Option (for me)\n\neasiest deployment ever\nfree !!!\n\n\n\n\n\nCitationBibTeX citation:@online{haase2023,\n  author = {Haase, Thomas},\n  title = {How to Make a {Quarto-Website}},\n  date = {2023-11-07},\n  url = {https://thhaase.github.io/Homepage/blog/2023-11-07-Blog-Tutorials/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nHaase, Thomas. 2023. “How to Make a Quarto-Website.”\nNovember 7, 2023. https://thhaase.github.io/Homepage/blog/2023-11-07-Blog-Tutorials/."
   },
   {
-    "objectID": "blog/2023-11-08-Letterboxed-Scraper-1/index.html",
-    "href": "blog/2023-11-08-Letterboxed-Scraper-1/index.html",
-    "title": "Letterboxed Scraper in R",
-    "section": "",
-    "text": "With Letterboxed users can rate and comment films, aswell as make lists of movies for certain topics and keep track of the movies they watched by logging them.\nBefore watching a movie in the cinema I ask myself if it’s worth the money and effort, and I wanted to answer the following questions:\n\n“why do people think the movie is bad”\n“what did people who enjoyed the movie like about it”\n\nI will answer these questions in my next blogpost"
-  },
-  {
-    "objectID": "blog/2023-11-08-Letterboxed-Scraper-1/index.html#loading-librarys",
-    "href": "blog/2023-11-08-Letterboxed-Scraper-1/index.html#loading-librarys",
-    "title": "Letterboxed Scraper in R",
-    "section": "Loading librarys",
-    "text": "Loading librarys\n\nrvest is necessary for scraping\ntidyverse is used for pipeing data efficiently and because it loads stringr for cleaningpurposes\n\nlibrary(rvest)\nlibrary(tidyverse)"
-  },
-  {
-    "objectID": "blog/2023-11-08-Letterboxed-Scraper-1/index.html#scraping-function-explained",
-    "href": "blog/2023-11-08-Letterboxed-Scraper-1/index.html#scraping-function-explained",
-    "title": "Letterboxed Scraper in R",
-    "section": "scraping function explained",
-    "text": "scraping function explained\nWebpages consist of a html framework. To view or download it by hand rightclick on a page and “Show page Source text”. So when understanding how to download webpages it’s necessary to at least learn the very basics of html (wich isn’t that hard, trust me).\nI wont explain HTML here, this is a scraping tutorial. If you dont know anything about html go on Youtube, watch a short introvideo and come back."
-  },
-  {
     "objectID": "blog/2023-12-16-Dissent_is/index.html",
     "href": "blog/2023-12-16-Dissent_is/index.html",
     "title": "Making sense of Dissent.is",
@@ -172,7 +151,7 @@
     "href": "blog/2023-12-16-Dissent_is/index.html#luhmannmap",
     "title": "Making sense of Dissent.is",
     "section": "LuhmannMap",
-    "text": "LuhmannMap\n\n4rules4radicals\n\nhttps://dissent.is/2022/09/27/4r4r/"
+    "text": "LuhmannMap\n\n\n\nLuhmannMap von Stefan M. Seydel\n\n\n\nhttps://dissent.is/2022/09/27/4r4r/\nklick\nklick2\n\n\nAußerdem:\n\ndissent.is letzte generation"
   },
   {
     "objectID": "blog/2023-12-16-Dissent_is/index.html#zurück-zur-luhmannmap",
