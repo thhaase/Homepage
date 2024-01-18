@@ -37,7 +37,7 @@ website:
   page-footer:
     background: dark # or dark
     left:
-      - "©  2023 Thomas Haase"
+      - "2023 Thomas Haase"
     right: 
       - text: "made with {{< fa heart >}} and quarto"
         href: https://quarto.org/
