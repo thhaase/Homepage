@@ -9,7 +9,7 @@ categories: [Stefan M. Seydel, Dissent.is]
 citation: 
   url: https://thhaase.github.io/Homepage/blog/2023-12-16-Dissent_is/ 
 image: preview-image.jpg
-draft: false 
+draft: true 
 ---
 
 # Allgemein
