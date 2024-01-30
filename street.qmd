@@ -9,10 +9,6 @@ format:
 
 # Streetphotos
 
-::: {.callout-note}
-All Images by Thomas Haase [CC-BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-:::
-
 ![](photography/street/wien_park.jpg)
 
 ---
@@ -35,7 +31,9 @@ All Images by Thomas Haase [CC-BY-NC-SA](https://creativecommons.org/licenses/by
 :::
 
 
-
+::: {.callout-note}
+All Images by Thomas Haase [CC-BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+:::
 
 
 

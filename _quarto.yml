@@ -37,7 +37,8 @@ website:
   page-footer:
     background: dark # or dark
     left:
-      - "[CC-BY](https://creativecommons.org/licenses/by/4.0/) Thomas Haase"
+      - text: "[CC-BY-NC-SA] Thomas Haase"
+        href: https://creativecommons.org/licenses/by-nc-sa/4.0/
     right: 
       - text: "made with {{< fa heart >}} and quarto"
         href: https://quarto.org/

@@ -24,10 +24,6 @@ sidebar:
 
 # [Astrophotos]{.orange-text}
 
-::: {.callout-note}
-All Images by Thomas Haase [CC-BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-:::
-
 # Planetary
 ## Jupiter
 ::: {layout-ncol=2}
@@ -82,4 +78,6 @@ All Images by Thomas Haase [CC-BY-NC-SA](https://creativecommons.org/licenses/by
 ![Tycho (through Clouds) - Gießen 26.11.23](photography/astro/23_10_24_Giessen_Mondoberfläche/3.jpg){width=50%}
 :::
 
-
+::: {.callout-note}
+All Images by Thomas Haase [CC-BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+:::

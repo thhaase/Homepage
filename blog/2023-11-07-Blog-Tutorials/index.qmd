@@ -36,9 +36,9 @@ After that the only thing you need is the brilliant **quarto-documentation**:
 
 Downsides: 
 
-- no custom URL
-
 - public Code 
+
+- Microsoft owns Github
 
 Why it's still the best Option (for me)
 
@@ -46,6 +46,7 @@ Why it's still the best Option (for me)
 
 - free !!!
 
+- if you rent a custom URL its really [easy to connect](https://dafero.wordpress.com/2020/02/19/how-to-configure-github-pages-with-a-custom-ionos-old-11-domain/)
 
 
 
