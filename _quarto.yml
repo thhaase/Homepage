@@ -4,6 +4,8 @@ project:
 
 website:
   title: ""
+  site-url: https://www.thhaase.de/blog.html
+  description: "This is Thomas Haase's personal Website"
   favicon: media/beamer.png
   navbar:
     collapse: true
@@ -32,6 +34,9 @@ website:
       href: https://open.spotify.com/user/kvqz88xd4goy62kojjy507veu?si=KR6CHMmaTPmgJR3d1UdKHA
     - icon: envelope
       href: "mailto:thhaase.soz@gmail.com"
+    - icon: rss
+      href: blog.xml 
+
 
         
   page-footer:

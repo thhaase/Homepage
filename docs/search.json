@@ -133,17 +133,17 @@
     "text": "Close Up\n\n\n\nTycho - Gießen 26.11.23\n\n\n\n\n\n\n\n\n(through Clouds) Gießen 26.11.23\n\n\n\n\n\n\n\n(through Clouds) Gießen 26.11.23\n\n\n\n\n\n\n\n\n\n\n\nTycho (through Clouds) - Gießen 26.11.23\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nAll Images by Thomas Haase CC-BY-NC-SA"
   },
   {
-    "objectID": "blog/2023-11-07-Blog-Tutorials/index.html",
-    "href": "blog/2023-11-07-Blog-Tutorials/index.html",
-    "title": "How to make a Quarto-Website",
-    "section": "",
-    "text": "List of Tutorials\nThis Videoseries explains the basics:\nhttps://youtube.com/playlist?list=PLkrJrLs7xfbXcEKhTCKRSr2VXH4yiBeXo&feature=shared\n\n\nThis tutorial explains how to link a Quartowebsite and a Quartoblog together:\nhttps://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/\n\n\nWith this tutorial you can learn how to customize your quartopage:\nhttps://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide\n\n\nAfter that the only thing you need is the brilliant quarto-documentation: https://quarto.org/docs/websites/\n\n\nWhy Githubpages\nDownsides:\n\npublic Code\nMicrosoft owns Github\n\nWhy it’s still the best Option (for me)\n\neasiest deployment ever\nfree !!!\nif you rent a custom URL its really easy to connect\n\n\n\n\n\nCitationBibTeX citation:@online{haase2023,\n  author = {Haase, Thomas},\n  title = {How to Make a {Quarto-Website}},\n  date = {2023-11-07},\n  url = {https://thhaase.github.io/Homepage/blog/2023-11-07-Blog-Tutorials/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nHaase, Thomas. 2023. “How to Make a Quarto-Website.”\nNovember 7, 2023. https://thhaase.github.io/Homepage/blog/2023-11-07-Blog-Tutorials/."
-  },
-  {
     "objectID": "astro.html#andromeda",
     "href": "astro.html#andromeda",
     "title": "Astrophotos",
     "section": "Andromeda",
     "text": "Andromeda\n\n\n\nAndromeda - Gießen 21.09.23"
+  },
+  {
+    "objectID": "blog/2023-11-07-Blog-Tutorials/index.html",
+    "href": "blog/2023-11-07-Blog-Tutorials/index.html",
+    "title": "How to make a Quarto-Website",
+    "section": "",
+    "text": "List of Tutorials\nThis Videoseries explains the basics:\nhttps://youtube.com/playlist?list=PLkrJrLs7xfbXcEKhTCKRSr2VXH4yiBeXo&feature=shared\n\n\nThis tutorial explains how to link a Quartowebsite and a Quartoblog together:\nhttps://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/\n\n\nWith this tutorial you can learn how to customize your quartopage:\nhttps://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide\n\n\nAfter that the only thing you need is the brilliant quarto-documentation: https://quarto.org/docs/websites/\n\n\nWhy Githubpages\nDownsides:\n\npublic Code\nMicrosoft owns Github\n\nWhy it’s still the best Option (for me)\n\neasiest deployment ever\nfree !!!\nif you rent a custom URL its really easy to connect\n\n\n\n\n\nCitationBibTeX citation:@online{haase2023,\n  author = {Haase, Thomas},\n  title = {How to Make a {Quarto-Website}},\n  date = {2023-11-07},\n  url = {https://thhaase.de/blog/2023-11-07-Blog-Tutorials/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nHaase, Thomas. 2023. “How to Make a Quarto-Website.”\nNovember 7, 2023. https://thhaase.de/blog/2023-11-07-Blog-Tutorials/."
   }
 ]
