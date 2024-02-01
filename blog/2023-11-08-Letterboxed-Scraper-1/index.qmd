@@ -3,49 +3,49 @@ title: "[1] Letterboxed Comment Scraper in R"
 description: "Tutorial for basic webscraping with R"
 author:
   - name: Thomas Haase
-    url: https://thhaase.github.io/Homepage/
+    url: https://thhaase.de/Homepage/
 date: 11-16-2023
 categories: [Scraping, R] 
 citation: 
-  url: https://thhaase.github.io/Homepage/blog/2023-11-16-short-description/ 
+  url: https://thhaase.de/Homepage/blog/2023-11-16-short-description/ 
 image: preview-image.jpg
 draft: true 
-freeze: true
+freeze: false
 ---
 
 # What is Letterboxed and why bother scraping it
 
 With [Letterboxed](https://letterboxd.com/) users can rate and comment films, aswell as make lists of movies for certain topics and keep track of the movies they watched by logging them.
 
-Before watching a movie in the cinema I asked myself if it's worth the money and effort. It narrowed down to 3 questions:
+Before watching a movie in the cinema I asked myself if it's worth the money and effort. In short I could narrow my worries down to 3 questions:
 
 -   What did people who enjoyed the movie like about it?
 
 -   What did people who didn't enjoy the movie dislike about it?
 
--   Do people with different ratings focus on different topics in their comments?
+-   Do people with different ratings focus on different topics in their comments? If yes: which?
 
 I will answer these questions in my next blogpost based on the data I scraped.
 
 # How to scrape the Letterboxed comments
 
-I will provide the whole code at the bottom of this article. Firsst I will explain what is happening.
+In the rest of this Blogpost I will explain the script I used to scrape the comments. You can find the whole script in the end of the post.
 
 ## Loading librarys
 
 -   rvest is necessary for scraping
--   tidyverse is used for pipeing data efficiently and because it loads stringr for cleaningpurposes
+-   tidyverse is used for pipeing data efficiently.Also it loads stringr wich is important for cleaningpurposes
 
-```{r}
+```{r eval=FALSE, message=FALSE, warning=FALSE, include=TRUE}
 #| warning: false
 
 library(rvest)
 library(tidyverse)
 ```
 
-## main scraping loop explained
+## Main scraping loop
 
-Letterboxed only displays 12 comments per page. This is not good, because we can't just download the html and have all the comments, we need to get more tricky. Luckily i observed the url changing when opening the next page of comments. This means we can automatically generate the urls of the page with a loop and rotate through the pages while always adding the newly scraped content to the big dataframe.
+Letterboxed only displays 12 comments per page. For me as a beginner it scared me at first, because we can't just download the html and have all the comments. When closely observing the page it is noticable that the url is changing when opening the next page of comments. This means we can automatically generate the urls of the page with a loop and rotate through the pages while always adding the newly scraped content to the big dataframe.
 
 
 ```{r eval=FALSE, message=FALSE, warning=FALSE, include=FALSE}
@@ -53,27 +53,148 @@ scrape_page <- function(x){}
 ```
 
 
-```{r message=FALSE, warning=FALSE}
+```{r eval=FALSE, message=FALSE, warning=FALSE, include=TRUE}
 # how many pages should be scraped?
 num_pages <- 2
 
-# initialize empty data frame for scraped data
+# initialize empty data frame to store the scraped data
 df <- data.frame()
 
 # scraping pages
 for (page_number in 1:num_pages) {
+
+  # nice little text to observe the scraping progress
   cat("Scraping page:", page_number, "\n")
+  
+  # then we scrape the page 
+  # (the function will be explained in the next section)
   scraped_data <- scrape_page(page_number)
-  df <- rbind(df, scraped_data) # adding the scraped data to the dataframe
+  
+  # adding the scraped data to the dataframe
+  df <- rbind(df, scraped_data) 
 }
 
 ```
 
-## scraping function
+## Scraping function
 
-In the for-loop I used the following "scrape_page()" function I defined before.
+Now let's take a look at the *scrape_page()* function.
 
 ```{r}
+scrape_page <- function(page_number) {
+
+  url <- paste0("https://letterboxd.com/film/barbie/reviews/page/", page_number, "/")
+  page <- read_html(url)
+  
+  name_data <- page %>% 
+                html_elements(".name") %>% 
+                html_text(trim = TRUE)
+  comment_data <- page %>% 
+                    html_elements(".collapsible-text p") %>% 
+                    html_text(trim = TRUE)
+  date_data <- page %>% 
+                html_elements("._nobr") %>% 
+                html_text(trim = TRUE)
+  rating_data <- page %>% 
+                  html_elements(".-green") %>% 
+                  html_text(trim = TRUE)
+  
+  max_length <- max(length(name_data), 
+                    length(comment_data), 
+                    length(date_data), 
+                    length(rating_data)
+                    )
+  length(name_data) <- max_length
+  length(comment_data) <- max_length
+  length(date_data) <- max_length
+  length(rating_data) <- max_length
+  
+  data.frame(name_data, comment_data, date_data, rating_data)
+}
+```
+
+
+The function only takes in one page_number and no film-url, because I made I was expecially interested in the barbie-film comments.
+The URL is put together by inserting the pagenumber in the URL.
+```{R eval=FALSE, message=FALSE, warning=FALSE, include=TRUE}
+url <- paste0("https://letterboxd.com/film/barbie/reviews/page/", page_number, "/")
+```
+
+At most (especially the simple) scraping projects a html file needs to be read at some point during the scrapingprocess. 
+
+When I started this little project I knew nothing about HTML so it's no problem if you also don't know anything about it, despite that it's the "framework" of the content of a webpage. That's why it contains all the Text we want to download. Through rightclicking and inspecting in the browser it is possible to view the html code of every webpage. 
+```{R eval=FALSE, message=FALSE, warning=FALSE, include=TRUE}
+page <- read_html(url)
+```
+
+Each time the page-html Information is passed to the html_elements() function wich selects every little part of the HTML Code wich is marked with a specific keyword. For example every "box" coded with ".name" contains the username of the comments author. We can extract this information from the box with html_text().  
+
+```{R eval=FALSE, message=FALSE, warning=FALSE, include=TRUE}
+  name_data <- page %>% 
+                html_elements(".name") %>% 
+                html_text(trim = TRUE)
+  comment_data <- page %>% 
+                    html_elements(".collapsible-text p") %>% 
+                    html_text(trim = TRUE)
+  date_data <- page %>% 
+                html_elements("._nobr") %>% 
+                html_text(trim = TRUE)
+  rating_data <- page %>% 
+                  html_elements(".-green") %>% 
+                  html_text(trim = TRUE)
+```
+
+Some comments are very long and collapsable wich makes it more difficult to download them. I just ignored that I could't read in the username, date or rating of a comment and just filled everything with NAs until the table was full (only a small proportion of all comments fall into this category).
+
+```{R eval=FALSE, message=FALSE, warning=FALSE, include=TRUE}
+  length(name_data) <- max_length
+  length(comment_data) <- max_length
+  length(date_data) <- max_length
+  length(rating_data) <- max_length
+
+  data.frame(name_data, comment_data, date_data, rating_data)
+```
+
+# Cleaning and saving the table
+
+For our analysis we want the dataframe to have nice column-names. 
+
+```{R eval=FALSE, message=FALSE, warning=FALSE, include=TRUE}
+df <- df %>%
+  rename(name = name_data,comment = comment_data,
+         date = date_data,rating = rating_data)
+
+```
+
+Also we want to replace the Stars with their star-count.
+
+For that nchar() counts the stars and we substitute the stars with their count. 
+
+```{R eval=FALSE, message=FALSE, warning=FALSE, include=TRUE}
+
+extract_and_replace_stars <- function(rating_text) {
+  stars_count <- nchar(gsub("[^★]", "", rating_text))
+  stars_count_text <- paste0(stars_count)
+  return(stars_count_text)
+}
+
+df$rating <- as.numeric(lapply(df$rating, extract_and_replace_stars))
+```
+
+Now we only need to save the file: 
+
+```{R eval=FALSE, message=FALSE, warning=FALSE, include=TRUE}
+
+write.csv(df, file = "./barbievscode.csv", row.names = FALSE)
+```
+
+This is the whole script. In my next Blogpost I will show how a very simple script analysis can give great insights into those comments. 
+
+```{R eval=FALSE, message=FALSE, warning=FALSE, include=TRUE}
+
+library(rvest)
+library(tidyverse)
+
 scrape_page <- function(page_number) {
   url <- paste0("https://letterboxd.com/film/barbie/reviews/page/", page_number, "/")
   page <- read_html(url)
@@ -84,13 +205,44 @@ scrape_page <- function(page_number) {
   rating_data <- page %>% html_elements(".-green") %>% html_text(trim = TRUE)
   
   # Ensure all vectors have the same length by using NA for missing elements
-  max_length <- max(length(name_data), length(comment_data), length(date_data), length(rating_data))
-  name_data <- rep(name_data, length.out = max_length)
-  comment_data <- rep(comment_data, length.out = max_length)
-  date_data <- rep(date_data, length.out = max_length)
-  rating_data <- rep(rating_data, length.out = max_length)
+  max_length <- max(length(name_data), 
+                    length(comment_data), 
+                    length(date_data), 
+                    length(rating_data))
+  length(name_data) <- max_length
+  length(comment_data) <- max_length
+  length(date_data) <- max_length
+  length(rating_data) <- max_length
   
   data.frame(name_data, comment_data, date_data, rating_data)
 }
+
+extract_and_replace_stars <- function(rating_text) {
+  stars_count <- nchar(gsub("[^★]", "", rating_text))
+  stars_count_text <- paste0(stars_count)
+  return(stars_count_text)
+}
+
+# how many pages should be scraped?
+num_pages <- 256
+
+df <- data.frame()
+
+# scraping pages
+for (page_number in 1:num_pages) {
+  cat("Scraping page:", page_number, "\n")
+  scraped_data <- scrape_page(page_number)
+  df <- rbind(df, scraped_data)
+}
+
+# cleaning
+df <- df %>%
+  rename(name = name_data,comment = comment_data,
+         date = date_data,rating = rating_data)
+
+# replace stars
+df$rating <- as.numeric(lapply(df$rating, extract_and_replace_stars))
+
+write.csv(df, file = "./barbievscode_all.csv", row.names = FALSE)
 
 ```
