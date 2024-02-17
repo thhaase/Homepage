@@ -41,7 +41,7 @@ I am a BA social science student at [Justus-Liebig-University Gießen](https://w
     - Empirical methods & data collection procedures 
     - Statistics
 - Student assistent for organizing a research and network conference with around 50 participants of the BMBF funding programm [International Humanities and Social Sciences](https://www.geistes-und-sozialwissenschaften-bmbf.de/en/International-Humanities-and-Social-Sciences-1696.html) 
-- Internship [6weeks] @GESIS Computational Social Science <br> [main supervision by Judith Gilsbach and Dr. Sebastian Stier]{.small-grey-text}
+- Internship [6weeks] @GESIS Computational Social Science <br>[main supervision by Judith Gilsbach and Dr. Sebastian Stier]{.small-grey-text}
 ---
 - Workshop: Quantitative content analysis [8h] <br> [(Methodentage JLU 2023 - Dr. Marius Sältzer) ]{.small-grey-text}
 - Workshop: Intro to multilevel analysis [16h] <br> [(Methodentage JLU 2022 - Sandra Scheuring)   ]{.small-grey-text}
